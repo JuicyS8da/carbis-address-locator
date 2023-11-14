@@ -1,4 +1,4 @@
-# carbis-address-locator
+![image](https://github.com/JuicyS8da/carbis-address-locator/assets/118248275/92c18df1-5f32-4ff9-bf16-1c9a4bb357b9)# carbis-address-locator
 Как установить Python на Windows, Linux и macOS
 
 Дистрибутивы Python есть для всех популярных операционных систем, они перечислены на официальном сайте [python.org](https://www.python.org). По большому счёту, не так важно, какую конкретно версию Python вы скачаете, — главное, чтобы её номер начинался с цифры 3.
@@ -45,22 +45,45 @@ Type "help", "copyright", "credits" or "license" for more information.
 # Python установлен, теперь можно запускать мой проект
 На windows:
 1. Открываем командную строку сочетанием клавиш Win + R и введём cmd
-2. Выбираем папку в которую будем загружать наш проект, выбрать можно при помощи навигации по:
+![image](https://github.com/JuicyS8da/carbis-address-locator/assets/118248275/1df5c59a-3424-4386-8376-350c90ad57d8)
 
-```cd <имя_файла>``` - перейти в папку с именем <имя_файла>
+3. Выбираем папку в которую будем загружать наш проект, выбрать можно при помощи навигации по:
+
+```cd <имя_папки>``` - перейти в папку с именем <имя_папки>
 
 ```cd ..``` - подняться на уровень выше / выйти из нынешней папки
 
-```ls``` - посмотреть содержимое в текущей папке
+```dir``` - посмотреть содержимое в текущей папке (```ls``` на Linux)
+
+```mkdir <имя_папки>``` - создать папку с именем <имя_папки>
+
+![image](https://github.com/JuicyS8da/carbis-address-locator/assets/118248275/549f5660-485e-4579-8b4b-9348ae249793)
+
 
 3. В командную строку прописываем
 ```git clone https://github.com/JuicyS8da/carbis-address-locator.git```
-```python3 -m venv venv```
+
+![image](https://github.com/JuicyS8da/carbis-address-locator/assets/118248275/488e9376-2757-403b-bf0a-94867cc9f322)
+
+
+```python -m venv venv```
+
 ```venv\Scripts\activate```
+
 Это позволит нам создать виртуальное окружение в котором будут храниться все модули для нашего проекта
-4. Затем, убедившись что мы в одной папке с файлом 'requirements.txt', в командную строку прописываем
+5. Затем, убедившись что мы в одной папке с файлом 'requirements.txt', в командную строку прописываем
+
 ```pip install -r requirements.txt```
+
+![image](https://github.com/JuicyS8da/carbis-address-locator/assets/118248275/f43ecef5-534b-48e5-a250-033d99564ace)
+
 Тем самым загрузив недостающие для нашего проекта модули
-5. И теперь наконец прописываем
-```python3 main.py```
-6. Также он потребует API-ключ и Секретный ключ, которые можно найти у себя в личном кабинете зарегестрировавшись здесь: https://dadata.ru/api/
+
+6. И теперь наконец прописываем
+
+```python main.py```
+
+![image](https://github.com/JuicyS8da/carbis-address-locator/assets/118248275/d636f58b-bf0a-4119-a823-b06319015403)
+
+
+8. Также он потребует API-ключ и Секретный ключ, которые можно найти у себя в личном кабинете зарегестрировавшись здесь: https://dadata.ru/api/
