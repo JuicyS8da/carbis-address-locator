@@ -1,5 +1,4 @@
-![image](https://github.com/JuicyS8da/carbis-address-locator/assets/118248275/92c18df1-5f32-4ff9-bf16-1c9a4bb357b9)# carbis-address-locator
-Как установить Python на Windows, Linux и macOS
+# Как установить Python на Windows, Linux и macOS
 
 Дистрибутивы Python есть для всех популярных операционных систем, они перечислены на официальном сайте [python.org](https://www.python.org). По большому счёту, не так важно, какую конкретно версию Python вы скачаете, — главное, чтобы её номер начинался с цифры 3.
 
